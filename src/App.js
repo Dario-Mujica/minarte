@@ -1,11 +1,13 @@
 import "./App.css";
 
-import Test from './components/NavBar'
+import NavBar from "./components/NavBar";
+import Lista from "./components/ItemListContainer";
 
 function App() {
   return (
     <>
-    <Test/>
+      <NavBar />
+      <Lista />
     </>
   );
 }
