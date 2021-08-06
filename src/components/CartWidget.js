@@ -1,11 +1,12 @@
 import LogoCarrito from "./img/cart.png";
+import "./CartWidget.css";
 
 export default function CarritoLogo() {
   return (
     <>
       <div>
         <a>
-          <img href={LogoCarrito} alt="Logo Carrito" />
+          <img src={LogoCarrito} href="#" alt="Logo Carrito" />
         </a>
       </div>
     </>

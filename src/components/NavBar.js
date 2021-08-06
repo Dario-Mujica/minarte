@@ -8,16 +8,19 @@ export default function NavBar() {
         <a className="active" href="#home">
           MINARTE
         </a>
-        <a href="#catalogo">CATALOGO</a>
-        <a href="#housing">HOUSING</a>
-        <a href="#nosotros">NOSOTROS</a>
-        <a>
+        <a href="#catalogo" className="medio">
+          CATALOGO
+        </a>
+        <a href="#housing" className="medio">
+          HOUSING
+        </a>
+        <a href="#nosotros" className="medio">
+          NOSOTROS
+        </a>
+        <a href="#" className="imgCarro">
           <CarritoLogo />
         </a>
       </div>
     </>
   );
 }
-
-
-
