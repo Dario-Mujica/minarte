@@ -6,7 +6,7 @@ export default function CarritoLogo() {
     <>
       <div>
         <a>
-          <img src={LogoCarrito} href="#" alt="Logo Carrito" />
+          <img src={LogoCarrito} href="#carrito" alt="Logo Carrito" />
         </a>
       </div>
     </>

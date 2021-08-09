@@ -17,7 +17,7 @@ export default function NavBar() {
         <a href="#nosotros" className="medio">
           NOSOTROS
         </a>
-        <a href="#" className="imgCarro">
+        <a href="#carrito" className="imgCarro">
           <CarritoLogo />
         </a>
       </div>

@@ -9,6 +9,10 @@ export default function Counter({ initial = 1, stock = 0, onAdd = () => {} }) {
   const decrement = () => {
     if (userSelected > 0) setUserSelected(userSelected - 1);
   };
+  const handleOnAddCart = (event) => {
+    if (userSelected > 0) onAdd(event);
+  };
+
   return (
     <>
       <div>
@@ -16,7 +20,7 @@ export default function Counter({ initial = 1, stock = 0, onAdd = () => {} }) {
           <button onClick={() => increment()}>+</button>
           <button onClick={() => decrement()}>-</button>
           <div>{userSelected}</div>
-          <button onClick={onAdd}>AGREGAR</button>
+          <button onClick={handleOnAddCart}>AGREGAR</button>
         </div>
       </div>
     </>

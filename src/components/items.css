@@ -1,0 +1,37 @@
+.container {
+    display: inline;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: bisque;
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+  .cards {
+    text-align: center;
+    width: 320px;
+    float: left;
+    margin: 1rem;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    background-color: transparent;
+  }  
+
+  .fondoP {
+    width: 100%;
+    background-position: center;
+    position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    margin-left: 40px;
+  }
+  .fondoP h3 {
+    color: #d9bc49;
+  }
+  .fondoP img {
+    width: 100%;
+    height: auto;
+  }
