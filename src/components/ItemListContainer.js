@@ -1,6 +1,6 @@
 import React from "react";
 import "./ItemListContainer.css";
-import Productos from "./Items";
+import Productos from "./products";
 
 export default function Lista() {
   return (
