@@ -5,10 +5,8 @@ export default function CarritoLogo() {
   return (
     <>
       <div>
-        <a>
           <img src={LogoCarrito} alt="Logo Carrito" />
-        </a>
-      </div>
+        </div>
     </>
   );
 }

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./ItemCount.css";
 
-export default function Counter({ initial = 1, stock = 0, onAdd = () => {} }) {
+export default function Counter({ initial = 0, stock = 0, onAdd = () => {} }) {
   const [userSelected, setUserSelected] = useState(initial);
   const increment = () => {
     if (userSelected < stock) setUserSelected(userSelected + 1);
