@@ -1,5 +1,5 @@
 import "./Items.css";
-import Item from "./ItemDetail.jsx";
+import Item from "../itemDetail/ItemDetail";
 import productos from "./Products";
 
 function ItemList() {

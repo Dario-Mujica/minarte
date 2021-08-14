@@ -1,7 +1,7 @@
-import FotoRig from "./img/rigFoto.jpg";
-import i310100 from "./img/i310100.jpg";
-import mother from "./img/mother.jpg";
-import ram from "./img/ram.jpg";
+import FotoRig from "../img/rigFoto.jpg";
+import i310100 from "../img/i310100.jpg";
+import mother from "../img/mother.jpg";
+import ram from "../img/ram.jpg";
 
   const productos = [
     {

@@ -1,14 +1,15 @@
 import React from "react";
 import "./ItemListContainer.css";
-import Productos from "./ItemList";
-
+import ItemList from "./ItemList";
+import ItemDeteailContainer from "../itemDetail/itemDetailContainer";
 export default function Lista() {
   
   return (
     <>
       <div className="centerText">
         <h1>INSUMOS</h1>
-        <Productos />
+        <ItemList />
+        <ItemDeteailContainer/>
       </div>
     </>
   );

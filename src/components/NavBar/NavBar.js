@@ -1,5 +1,5 @@
 import "./NavBar.css";
-import CarritoLogo from "./CartWidget";
+import CarritoLogo from "../CartWidget/CartWidget";
 
 export default function NavBar() {
   return (

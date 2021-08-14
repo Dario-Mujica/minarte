@@ -1,4 +1,4 @@
-import LogoCarrito from "./img/cart.png";
+import LogoCarrito from "../img/cart.png";
 import "./CartWidget.css";
 
 export default function CarritoLogo() {
