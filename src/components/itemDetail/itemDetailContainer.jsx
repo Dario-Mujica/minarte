@@ -31,7 +31,7 @@ const ItemDeteailContainer = () => {
   return (
     <>
       {user === undefined ? (
-        <p>loading</p>
+        <p></p>
       ) : (
         <ItemDetail
           key={user.id}

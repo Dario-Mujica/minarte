@@ -4,7 +4,7 @@ function ItemDetail({ name, price, description, pic, stock }) {
   return (
     <div className="fondoP">
       <div className="cards">
-        <h3>{name}</h3>
+        <h3 >{name}</h3>
         <h4>{price}</h4>
         <img src={pic} alt="foto producto" />
         <h5>{description}</h5>
@@ -16,6 +16,7 @@ function ItemDetail({ name, price, description, pic, stock }) {
         />
       </div>
     </div>
+    
   );
 }
 

@@ -5,19 +5,19 @@ export default function NavBar() {
   return (
     <>
       <div className="topnav">
-        <a className="active" href="#home">
+        <a className="active" href="/">
           MINARTE
         </a>
-        <a href="#catalogo" className="medio">
+        <a href="/catalogo" className="medio">
           CATALOGO
         </a>
-        <a href="#housing" className="medio">
+        <a href="/housing" className="medio">
           HOUSING
         </a>
-        <a href="#nosotros" className="medio">
+        <a href="/nosotros" className="medio">
           NOSOTROS
         </a>
-        <a href="#carrito" className="imgCarro">
+        <a href="/carrito" className="imgCarro">
           <CarritoLogo />
         </a>
       </div>
